@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jon's Playground</title>
+    <title>Game Time!</title>
 
     <!-- Bootstrap -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
@@ -18,10 +18,41 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <h1>Hello there!</h1>
-      <p class="lead">This is Jon's Playground</p>
-    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Rock, Paper or Scissors</h1>
+          <p class="lead text-center">Choose wisely</p>
+        </div>
+      </div>
+      <div class="col-md-6 well">
+        <h2 class="text-center">Kasie</h2>
+        <div class="text-center">
+          <button class="btn btn-lg btn-primary">Rock</button>
+          <button class="btn btn-lg btn-success">Paper</button>
+          <button class="btn btn-lg btn-warning">Scissors</button>
+          <p>&nbsp;</p>
+          <p class="lead">
+            <span class="text-center kasie-text">Kasie has not made a choice</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 well">
+        <h2 class="text-center">Jon</h2>
+        <div class="text-center">
+          <button class="btn btn-lg btn-primary">Rock</button>
+          <button class="btn btn-lg btn-success">Paper</button>
+          <button class="btn btn-lg btn-warning">Scissors</button>
+          <p>&nbsp;</p>
+          <p class="lead">
+            <span class="text-center jon-text">Jon has not made a choice</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <button class="btn btn-lg btn-default">Begin</button>
+      </div>
+    </div><!-- /.container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
